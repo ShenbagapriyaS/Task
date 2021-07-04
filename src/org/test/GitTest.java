@@ -21,9 +21,15 @@ public class GitTest {
 		System.out.println("enter your ac number");
 		long acNum = s.nextLong();
 		System.out.println("account num = " +acNum );
-		
+	
 		System.out.println("enter your bank name");
 		String bankName = s.nextLine();
 		System.out.println(" bank name is =" + bankName);
+		
+		System.out.println("enter your branchName");
+		String branchName = s.nextLine();
+		System.out.println("branchname is  =" + branchName);
+
+
 	}
 }
