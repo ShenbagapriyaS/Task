@@ -8,7 +8,7 @@ public class GitTest {
 		Scanner s = new Scanner(System.in);
 		System.out.println("enter your name");
 		String name = s.nextLine();
-		System.out.println("name is (nextline) =" + name);
+		System.out.println("name is =" + name);
 		
 		System.out.println("enter your age");
 		byte age = s.nextByte();
@@ -21,5 +21,9 @@ public class GitTest {
 		System.out.println("enter your ac number");
 		long acNum = s.nextLong();
 		System.out.println("account num = " +acNum );
+		
+		System.out.println("enter your bank name");
+		String bankName = s.nextLine();
+		System.out.println(" bank name is =" + bankName);
 	}
 }
